@@ -1,0 +1,8 @@
+﻿  WinMain.cpp
+m:\2 semester\winapi\exam_project\knowledge_testing_system\knowledge_testing_system\winmain.cpp(5): error C2664: 'INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)': cannot convert argument 4 from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+  m:\2 semester\winapi\exam_project\knowledge_testing_system\knowledge_testing_system\winmain.cpp(5): note: None of the functions with this name in scope match the target type
+  Controller.cpp
+m:\2 semester\winapi\exam_project\knowledge_testing_system\knowledge_testing_system\controller.cpp(50): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+m:\2 semester\winapi\exam_project\knowledge_testing_system\knowledge_testing_system\controller.cpp(64): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+  Console.cpp
+  Generating Code...

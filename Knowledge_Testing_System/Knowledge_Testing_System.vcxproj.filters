@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{7eb6d973-3861-477a-8a87-eb25e2b2f927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs_cpp">
+      <UniqueIdentifier>{dda9fc14-114a-4607-ae2e-bb495cdf50d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Struct_debugger_headers">
+      <UniqueIdentifier>{22c21cee-a878-42ba-bd71-7962d9f58ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Struct_debugger_cpp">
+      <UniqueIdentifier>{cadd874d-5186-462e-a32a-44a99a363d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes_headers">
+      <UniqueIdentifier>{9e3f1c7d-7b6a-42f0-acdf-d27b856cd5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes_cpp">
+      <UniqueIdentifier>{761d02dc-9abe-4141-9fa3-3623450ad3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs_headers">
+      <UniqueIdentifier>{4e2b12e5-8a6b-47be-9619-e3d1b30a82fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes_libs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDialogController.h">
+      <Filter>Header Files\Dialogs_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDialogController.h">
+      <Filter>Header Files\Dialogs_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Struct_debugger_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Subjects.h">
+      <Filter>Header Files\Classes_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Students.h">
+      <Filter>Header Files\Classes_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Questions.h">
+      <Filter>Header Files\Classes_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDialogController.h">
+      <Filter>Header Files\Dialogs_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EditQuestDialogController.h">
+      <Filter>Header Files\Dialogs_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewQuestDialogController.h">
+      <Filter>Header Files\Dialogs_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files\Classes_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RedactorManager.h">
+      <Filter>Header Files\Classes_headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Knowledge_Testing_System.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestList.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Students.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="txt_files\tests\1.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="txt_files\tests\2.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="txt_files\tests\3.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDialogController.cpp">
+      <Filter>Source Files\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDialogController.cpp">
+      <Filter>Source Files\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Struct_debugger_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Subjects.cpp">
+      <Filter>Source Files\Classes_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Students.cpp">
+      <Filter>Source Files\Classes_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Questions.cpp">
+      <Filter>Source Files\Classes_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorDialogController.cpp">
+      <Filter>Source Files\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EditQuestDialogController.cpp">
+      <Filter>Source Files\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NewQuestDialogController.cpp">
+      <Filter>Source Files\Dialogs_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RedactorManager.cpp">
+      <Filter>Source Files\Classes_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files\Classes_cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
